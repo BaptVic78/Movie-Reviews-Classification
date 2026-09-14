@@ -1,1 +1,22 @@
+
+# Hugging Face / PyTorch training artifacts
+# Jupyter
+# OS files
+# Python cache
+# Training outputs / checkpoints
+# VS Code local settings
+*.pyc
+*.pyo
+*.safetensors
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+.vscode/
+Thumbs.db
+__pycache__/
+checkpoint-*/
+optimizer.pt
+results/
+scheduler.pt
 venv/
+venv/# Virtual environments
