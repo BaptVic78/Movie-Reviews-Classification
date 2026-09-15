@@ -1,12 +1,26 @@
 # Movie-Reviews-Classification
 
-## Introduction
+This project was developed for the Natural Language Processing course.
 
-Based on IMDb 50K Movie Reviews dataset [IMDb 50K Movie Reviews on Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?utm_source=chatgpt.com), we aim to predict if the comments are positives or negatives. 
+## Objective
 
-To achieve this, we use the following workflow : 
+The objective is to classify movie reviews into 2 categories : positive or negative
 
-[data cleaning](cleaning.ipynb) --> tokenization --> vectorization --> modeling and evaluation 
+The project uses IMDb 50K Movie Reviews dataset [IMDb 50K Movie Reviews on Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?utm_source=chatgpt.com)
+
+## NLP Pipeline
+
+The project includes : 
+
+- data preprocessing and cleaning
+- tokenization
+- TF-IDF vectorization
+- Several algorithms of classification, including:
+    - Logistic regression
+    - Naives Bayes
+    - Linear SVC
+- Models evaluation
+- Models comparison
 
 ## Prerequisites 
 
